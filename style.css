@@ -1,0 +1,147 @@
+.travel{ /* Requirement-2.C */
+    background-color: rgb(251, 250, 246); /* Requirement-2.4 */
+}
+
+.intro{
+    text-align: center;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+div.blogbanner img{ 
+    object-fit: cover;
+    width: 1500px; /* Requirement-2.9 */
+    height: 300px;
+    position: sticky; /* Requirement-2.15 */
+    left: 0px;
+    top: 0px;
+    z-index: -1; /* Requirement-2.17 */
+}
+
+h1 { /* Requirement-2.A */
+    color: rgb(186, 139, 85); /* Requirement-2.3 */
+    font-family: 'Times New Roman', Times, serif; /* Requirement-2.1 */
+    font-size: 250%; /* Requirement-2.10 */
+    text-align: center; /* Requirement-2.2 */
+    -webkit-text-stroke:1px rgba(211, 164, 76, 0.832);
+    text-shadow: 5px 5px 10px rgb(231, 188, 94);
+}
+
+details{ /* Requirement-2.G */
+    border: 15px;
+    padding:15px;
+}
+
+summary{ /* Requirement-2.H */
+    border: 1px solid #926005;
+    border-radius: 15px;
+}
+
+details, summary{ /* Requirement-2.B */
+    text-align: center;
+}
+
+ul.menu {
+    list-style-type: none; /* Requirement-2.8 */
+    margin: 0;
+    padding: 0;
+    background-color: rgb(186, 139, 85);
+    overflow: hidden;
+}
+  
+ul.menu li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+  
+ul.menu li:last-child {
+    border-right: none;
+}
+  
+ul.menu li a {
+    display: block; /* Requirement-2.12 */
+    color: white;
+    text-align: center;
+    padding: 10px 13px;
+}
+
+h3 {
+    color:rgb(169, 132, 89);
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+h3::first-letter{
+    font-size: xx-large;
+    font-family:'Times New Roman', Times, serif;
+}
+
+div.box{
+  width: 250px;
+  box-shadow: 0 15px 15px 0 rgba(42, 42, 35, 0.2), 0 6px 20px 0 rgba(42, 42, 35, 0.2);
+  text-align: center;
+}
+
+div.tag{
+    padding:10px;
+}
+
+#box-rect{ /* Requirement-2.D */
+  width: 300px; /* Requirement-2.7 */
+  box-shadow: 0 15px 15px 0 rgba(42, 42, 35, 0.2), 0 6px 20px 0 rgba(42, 42, 35, 0.2);
+  text-align: center;
+}
+
+#tag-rect{
+    padding:13px;
+}
+
+a:link {
+    color: rgb(191, 106, 9);
+}
+
+a:hover { /* Requirement-2.E */
+    color: rgb(161, 31, 31);
+}
+
+table tr td{ /* Requirement-2.F */
+
+  padding: 3px; /* Requirement-2.6 */
+  text-align: match-parent;
+  border-bottom: 1px solid rgb(180, 178, 178); /* Requirement-2.5 */
+}
+
+ul.menu li a:hover:not(.active) {
+    background-color: rgb(227, 197, 112);
+}
+
+img{
+    float:right; /* Requirement-2.11 */
+}
+
+.overflow{ 
+  background: #d7bc8b;
+  color: black;
+  padding: 15px;
+  width: 70%;
+  height: 70px;
+  overflow: scroll; /* Requirement-2.14 */
+  border: 1px solid #ccc;
+}
+
+.fdiv1{
+  color:rgb(191, 106, 9);
+  float: right;
+  padding: 15px; 
+  visibility: visible;
+}
+
+.surprise{
+  visibility: hidden; /* Requirement-2.16 */
+  color:rgb(191, 106, 9);
+  padding: 15px;
+  clear: right; /* Requirement-2.13 */
+}
